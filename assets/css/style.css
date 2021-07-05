@@ -4,12 +4,12 @@
 }
 
 body {
-	background-image: url("../img/television.jpeg");
+	background-image: url("../img/clouds.jpeg");
 	background-size: cover;
 	background-position: center;
 	display: block;
+	filter: grayscale(100%);
 	height: 500px;
-	opacity: 0.8;
 	color: white;
 	font-family: 'Chakra Petch', sans-serif;
 	text-shadow: 0 0 2px #000000, 0 0 5px #000000;
@@ -20,6 +20,30 @@ body {
 .cover-container {
 	max-width: 65em;
 }
+
+.cover-container a {
+	font-size: 20px;
+	color: white;
+	font-weight: 600;
+}
+
+.cover-container h1 {
+	font-size: 50px;
+	font-weight: 600;
+
+}
+
+.px-3 p {
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.px-3 i {
+	margin-left: 15px;
+	margin-right: 15px;
+	font-size: 25px;
+}
+
 
 
 
