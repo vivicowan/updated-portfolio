@@ -3,19 +3,24 @@
 	font-family: 'IBM Plex Mono', monospace;
 }
 
-.jumbotron {
+body {
 	background-image: url("../img/television.jpeg");
 	background-size: cover;
 	background-position: center;
-	height: 375px;
+	display: block;
+	height: 500px;
 	opacity: 0.8;
-}
-
-.jumbotron .container{
 	color: white;
 	font-family: 'Chakra Petch', sans-serif;
-	text-shadow: 0 0 5px #000000, 0 0 5px #000000;
+	text-shadow: 0 0 2px #000000, 0 0 5px #000000;
 	text-align: center;
 	margin-top: 45px;
 }
+
+.cover-container {
+	max-width: 65em;
+}
+
+
+
 
