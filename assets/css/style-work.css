@@ -33,8 +33,33 @@ body{
 
 .wd {
 	width: 800px;
-	height: 600px;
+	height: 500px;
 	margin: 10px;
 	object-fit: cover;
+	object-position: top;
+}
+
+.ws {
+	width: 800px;
+	height: 500px;
+	margin: 10px;
+	object-fit: cover;
+	object-position: top;
+}
+
+.cl {
+	width: 800px;
+	height: 500px;
+	margin: 10px;
+	object-fit: cover;
+	object-position: top;
+}
+
+.cq {
+	width: 850px;
+	height: 400px;
+	margin: 10px;
+	object-fit: cover;
+	object-position: top;
 }
 
