@@ -4,7 +4,7 @@
 }
 
 body {
-	background-image: url("../img/northern-lights.jpeg");
+	background: url("../img/northern-lights.jpeg");
 	background-size: cover;
 	background-position: center;
 	display: block;
@@ -29,6 +29,7 @@ body {
 .card {
 	padding: 30px;
 	background-color: rgba(63, 63, 63, 0.438);
+	margin: 10px;
 }
 
 h2 {
