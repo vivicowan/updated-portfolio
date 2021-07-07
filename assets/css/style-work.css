@@ -29,6 +29,7 @@ body{
 .card {
 	padding: 40px;
 	background-color: rgba(63, 63, 63, 0.438);
+	margin: 10px;
 }
 
 .wd {

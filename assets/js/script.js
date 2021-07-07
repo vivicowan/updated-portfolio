@@ -36,3 +36,36 @@ $("#cq-repo-btn").on('click', function() {
 $("#cq-web-btn").on('click', function() {
 	location.href = "https://vivicowan.github.io/coding-quiz/";
 });
+
+
+(function () {
+	'use strict'
+ 
+	// Fetch all the forms we want to apply custom Bootstrap validation styles to
+	var forms = document.querySelectorAll('.needs-validation')
+ 
+	// Loop over them and prevent submission
+	Array.prototype.slice.call(forms)
+	  .forEach(function (form) {
+		 form.addEventListener('submit', function (event) {
+			if (!form.checkValidity()) {
+			  event.preventDefault()
+			  event.stopPropagation()
+			}
+ 
+			form.classList.add('was-validated')
+		 }, false)
+	  })
+ })()
+
+ $(".fa-github").on('click', function() {
+	location.href = "https://github.com/vivicowan";
+});
+
+$(".fa-linkedin").on('click', function() {
+	location.href = "https://www.linkedin.com/in/vivianna-cowan-400b061a6/";
+});
+
+$(".fa-instagram").on('click', function() {
+	location.href = "https://www.instagram.com/vivicowan/?hl=en";
+});
