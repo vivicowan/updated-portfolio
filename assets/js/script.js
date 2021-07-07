@@ -58,6 +58,7 @@ $("#cq-web-btn").on('click', function() {
 	  })
  })()
 
+
  $(".fa-github").on('click', function() {
 	location.href = "https://github.com/vivicowan";
 });
