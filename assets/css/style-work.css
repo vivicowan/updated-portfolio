@@ -45,7 +45,7 @@ body{
 	width: 800px;
 	height: 500px;
 	margin: 10px;
-	object-fit: cover;
+	object-fit: fill;
 	object-position: top;
 }
 
