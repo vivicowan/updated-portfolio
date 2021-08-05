@@ -54,9 +54,9 @@ $(".fa-github").on("click", function () {
 });
 
 $(".fa-linkedin").on("click", function () {
-  location.href = "https://www.linkedin.com/in/vivianna-cowan-400b061a6/";
+  location.href = "https://www.linkedin.com/in/vivi-cowan00/";
 });
 
 $(".fa-instagram").on("click", function () {
-  location.href = "https://www.instagram.com/vivicowan/?hl=en";
+  location.href = "https://www.instagram.com/vivicowan";
 });
